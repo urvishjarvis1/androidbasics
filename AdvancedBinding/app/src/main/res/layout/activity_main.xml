@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <data class="MyLayoutBinding">
+        <variable
+            name="user"
+            type="com.example.volansys.advancedbinding.User"/>
+    </data>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <Button
+        android:text="Inflate the ViewStub"
+        android:onClick="inflateViewStub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ViewStub
+        android:id="@+id/view_stub"
+        android:layout="@layout/view_stub"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+
+</LinearLayout>
+</layout>
