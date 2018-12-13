@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">AndroidGestures</string>
+    <string name="tracking_activity">Tracking Activity</string>
+    <string name="multiplegestures">Multiplegesture</string>
+    <string name="scaling_and_dragging">Scaling and Dragging</string>
+    <string name="touchevents_on_viewgroup">TouchEvents on ViewGroup</string>
+</resources>
