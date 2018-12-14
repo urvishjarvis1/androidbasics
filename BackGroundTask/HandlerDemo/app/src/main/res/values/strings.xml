@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">HandlerDemo</string>
+    <string name="show_progress">Show Progress</string>
+</resources>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="com.example.urvish.titlefinder.MainActivity">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edittxt_book"
+        android:layout_margin="@dimen/_8dp"
+        android:padding="@dimen/_8dp"
+        android:hint="@string/enter_book_name"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/search"
+        android:id="@+id/btn_search"
+        android:padding="@dimen/_8dp"
+        android:layout_margin="@dimen/_8dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_booktitle"
+        android:padding="@dimen/_8dp"
+        android:textSize="@dimen/_20sp"
+        android:textStyle="bold"
+        android:layout_margin="@dimen/_8dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_bookAuthor"
+        android:textSize="@dimen/_15sp"
+        android:textStyle="bold"
+        android:padding="@dimen/_8dp"
+        android:layout_margin="@dimen/_8dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_bookDesc"
+        android:padding="@dimen/_8dp"
+        android:layout_margin="@dimen/_8dp"/>
+
+</LinearLayout>
