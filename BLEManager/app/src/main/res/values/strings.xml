@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">BLEManager</string>
+    <string name="bluetooth_on">Bluetooth On!</string>
+    <string name="bluetooth_off">BlueTooth Off</string>
+    <string name="bluetooth_dis">Bluetooth Discoverble</string>
+    <string name="available_devices">Available Devices:</string>
+</resources>
