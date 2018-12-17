@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">BroadcastIntent</string>
+    <string name="btn_txt_value">Send Custom Broadcast</string>
+</resources>
