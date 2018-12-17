@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ContactMe</string>
+    <string name="google_android_map_api_key">AIzaSyC8NB-o3By6fWvOqRrmQtHXeHryXj6qE-E</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="contact_us">Contact Us</string>
+
+</resources>
