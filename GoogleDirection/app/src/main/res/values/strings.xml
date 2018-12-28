@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">GoogleDirection</string>
+    <string name="enter_source_address">Enter Source Address</string>
+    <string name="enter_dest_address">Enter Destination Address</string>
+    <string name="get_direction">Get Direction</string>
+</resources>
