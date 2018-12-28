@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">ContentProviderDemo</string>
+    <string name="show_all">show all</string>
+    <string name="show_single">show single</string>
+    <string name="clear">clear</string>
+    <string-array name="words">
+        <item>Word 1</item>
+        <item>Word 2</item>
+        <item>Word 3</item>
+        <item>Word 4</item>
+    </string-array>
+</resources>
