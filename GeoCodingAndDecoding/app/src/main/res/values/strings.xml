@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">GeoCodingAndDecoding</string>
+    <string name="searching">searching</string>
+</resources>
