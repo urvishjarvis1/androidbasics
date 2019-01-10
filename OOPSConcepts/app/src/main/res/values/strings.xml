@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Java Features Updated</string>
+    <string name="control_flow">Control Flow Example</string>
+    <string name="structure_data">Structure Data Example</string>
+    <string name="class_interface">Class and Interface Example</string>
+    <string name="java_features">Java Features</string>
+    <string name="btn_plus">+</string>
+    <string name="btn_minus">-</string>
+    <string name="before">Before</string>
+    <string name="after">After</string>
+    <string name="super_class">Super Class</string>
+    <string name="sub_class">Sub Class</string>
+    <string name="inher_ploymorphsm">Inheritance and Polymorpishm</string>
+    <string name="methodoverload">Method Overloading</string>
+</resources>

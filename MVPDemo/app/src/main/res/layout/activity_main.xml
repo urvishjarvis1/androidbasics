@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="com.example.urvish.mvpdemo.MainActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_fname"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:padding="@dimen/_8dp"
+        android:layout_margin="@dimen/_8dp"
+        />
+    <TextView
+        android:id="@+id/txt_fname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_8dp"
+        android:textSize="@dimen/_30sp"
+        android:padding="@dimen/_8dp"
+        android:textStyle="bold"
+        android:visibility="invisible"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_lname"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:padding="@dimen/_8dp"
+        android:layout_margin="@dimen/_8dp" />
+    <TextView
+        android:id="@+id/txt_lname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_8dp"
+        android:padding="@dimen/_8dp"
+        android:textSize="@dimen/_30sp"
+        android:textStyle="bold"
+        android:visibility="invisible"
+        />
+    <Button
+        android:id="@+id/btn_show"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_show"
+        android:padding="@dimen/_8dp"
+        android:layout_margin="@dimen/_8dp"/>
+</LinearLayout>

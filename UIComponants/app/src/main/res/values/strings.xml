@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">UIComponant</string>
+    <string name="btnlogin">Login</string>
+    <string name="signup">Sign Up</string>
+    <string name="hint_uname">Enter username</string>
+    <string name="hint_pass">Enter password</string>
+    <string name="enter_age">Enter Age</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="phoneno">Enter Phone No.</string>
+    <string name="activated">Activated</string>
+    <string name="deactiavted">Deactiavted</string>
+    <string name="checked">Checked?</string>
+    <string name="show">Progress</string>
+    <string name="exit">Exit</string>
+    <string name="alert">Alert</string>
+    <string name="ok">OK</string>
+    <string name="cancel">CANCEL</string>
+    <string name="switchname">Switch</string>
+    <string name="gender">Gender</string>
+    <string name="profile_mode">Profile Mode</string>
+    <string name="privacy">Privacy Policy</string>
+    <string-array name="labels_array">
+        <item>Home</item>
+        <item>Work</item>
+        <item>Mobile</item>
+        <item>Other</item>
+    </string-array>
+</resources>

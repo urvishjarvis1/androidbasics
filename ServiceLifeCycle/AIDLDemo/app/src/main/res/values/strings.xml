@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">AIDLDemo</string>
+    <string name="start_service">start service</string>
+    <string name="just_for_service">Just for Service</string>
+</resources>

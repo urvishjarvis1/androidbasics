@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">AIDLClient</string>
+    <string name="send_message">Send Message</string>
+    <string name="receieve_message">receieve message</string>
+</resources>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ObserverPattern</string>
+    <string name="change_names">Change Names</string>
+    <string name="subscribe">Subscribe</string>
+</resources>

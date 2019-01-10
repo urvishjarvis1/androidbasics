@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<countries>
+    <country id="1">
+        <name>Afghanistan</name>
+        <capital>Kabul</capital>
+    </country>
+
+    <country id="2">
+        <name>Albania</name>
+        <capital>Tirana</capital>
+    </country>
+
+    <country id="3">
+        <name>Armenia</name>
+        <capital>Yerevan</capital>
+    </country>
+
+</countries>

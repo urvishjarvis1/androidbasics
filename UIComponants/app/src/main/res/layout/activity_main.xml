@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.urvish.uicomponant.activities.MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/_10dp"
+                android:text="@string/signup"
+                android:textAlignment="center"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/_24sp"
+
+                />
+
+            <EditText
+                android:id="@+id/uname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_10dp"
+                android:hint="@string/hint_uname"
+                android:imeOptions="actionNext"
+                android:padding="@dimen/_10dp"
+                android:singleLine="true"
+
+                />
+
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_10dp"
+                android:hint="@string/hint_pass"
+                android:inputType="textPassword"
+                android:padding="@dimen/_10dp" />
+
+            <TextView
+                android:id="@+id/age"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_10dp"
+                android:padding="@dimen/_10dp"
+                android:text="@string/enter_age" />
+
+            <SeekBar
+                android:id="@+id/seekbar_age"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_10dp"
+                android:padding="@dimen/_10dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/gender"
+                android:layout_margin="@dimen/_8dp"
+                android:padding="@dimen/_8dp"/>
+            <RadioGroup
+                android:id="@+id/radiogrp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/male"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/_10dp"
+                    android:onClick="onRadioButtonClicked"
+                    android:padding="@dimen/_10dp"
+                    android:text="@string/male" />
+
+                <RadioButton
+                    android:id="@+id/female"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/_10dp"
+                    android:onClick="onRadioButtonClicked"
+                    android:padding="@dimen/_10dp"
+                    android:text="@string/female" />
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_10dp"
+                android:padding="@dimen/_10dp"
+                android:text="@string/phoneno" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:layout_width="@dimen/_290dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/_10dp"
+                    android:hint="@string/phoneno"
+                    android:inputType="phone"
+                    android:maxLength="10" />
+
+                <Spinner
+                    android:id="@+id/spinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_margin="@dimen/_10dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/_8dp"
+                    android:layout_margin="@dimen/_8dp"
+                    android:text="@string/profile_mode"/>
+                <ToggleButton
+                    android:id="@+id/togglebutton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/_8dp"
+                    android:padding="@dimen/_8dp"
+                    android:textOff="@string/deactiavted"
+                    android:textOn="@string/activated" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/switchname"
+                    android:layout_margin="@dimen/_8dp"
+                    android:padding="@dimen/_8dp"/>
+                <Switch
+                    android:id="@+id/switch_ex"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/_10dp"
+                    android:checked="false"
+                    android:padding="@dimen/_10dp"
+                    android:shadowColor="@color/colorAccent"
+                    />
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/_8dp"
+    android:padding="@dimen/_8dp"
+    android:text="@string/privacy"/>
+                <CheckBox
+                    android:id="@+id/check"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/_10dp"
+                    android:padding="@dimen/_10dp"
+                    android:text="@string/checked" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:id="@+id/btn_login"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/_10dp"
+                    android:layout_marginBottom="@dimen/_8dp"
+                    android:layout_marginEnd="@dimen/_8dp"
+                    android:layout_marginRight="@dimen/_8dp"
+                    android:padding="@dimen/_10dp"
+                    android:text="@string/btnlogin" />
+
+                <Button
+                    android:id="@+id/btn_progress"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/_10dp"
+                    android:layout_marginBottom="@dimen/_8dp"
+                    android:layout_marginEnd="@dimen/_8dp"
+                    android:layout_marginRight="@dimen/_8dp"
+                    android:onClick="showProgress"
+                    android:padding="@dimen/_10dp"
+                    android:text="@string/show" />
+
+                <Button
+                    android:id="@+id/btn_exit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/_10dp"
+                    android:layout_marginBottom="@dimen/_8dp"
+                    android:layout_marginEnd="@dimen/_8dp"
+                    android:layout_marginRight="@dimen/_8dp"
+                    android:onClick="showAlert"
+                    android:padding="@dimen/_10dp"
+                    android:text="@string/exit" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

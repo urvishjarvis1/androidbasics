@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <ListView
+        android:id="@+id/listview"
+        app:layout_constraintTop_toBottomOf="@id/linelayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+
+    </ListView>
+    <LinearLayout
+        android:id="@+id/linelayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/pull"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:text="@string/pull_parser"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/saxparser"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:text="@string/sax_parser"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/domparser"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:text="@string/dom_parser"/>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

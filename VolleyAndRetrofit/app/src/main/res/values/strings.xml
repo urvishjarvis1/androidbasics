@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Assignment 7</string>
+    <string name="get_data">Get Data</string>
+    <string name="find_the_title">Find the title</string>
+    <string name="force_crash">Force Crash!</string>
+    <string name="error">something went wrong!</string>
+    <string name="post_data">post data</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="id">id</string>
+    <string name="send_analytics">Send Analytics</string>
+    <string name="nextactivity">nextActivity</string>
+</resources>

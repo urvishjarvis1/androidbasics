@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">RoomDataBase</string>
+    <string name="enter_name">Enter Name</string>
+    <string name="enter_id">Enter Id</string>
+    <string name="submit">Submit</string>
+    <string name="insert">Insert</string>
+    <string name="read">Read</string>
+    <string name="by_id">By Id:</string>
+    <string name="enter_data">Enter Data:</string>
+    <string name="by_name">By Name</string>
+</resources>

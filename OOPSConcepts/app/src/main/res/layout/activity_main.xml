@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.urvish.javafeatures.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_16dp"
+        android:padding="@dimen/_10dp"
+        android:text="@string/java_features"
+        android:textAlignment="center"
+        android:textColor="@color/colorAccent"
+        android:textSize="@dimen/_20sp" />
+
+    <Button
+        android:id="@+id/btn_controlflow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_16dp"
+        android:onClick="onPress"
+        android:padding="@dimen/_10dp"
+        android:text="@string/control_flow" />
+
+    <Button
+        android:id="@+id/btn_structdata"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_16dp"
+        android:onClick="onPress"
+        android:padding="@dimen/_10dp"
+        android:text="@string/structure_data" />
+
+    <Button
+        android:id="@+id/btn_classinterface"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_16dp"
+        android:onClick="onPress"
+        android:padding="@dimen/_10dp"
+        android:text="@string/class_interface" />
+
+    <Button
+        android:id="@+id/btn_inheritance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_16dp"
+        android:onClick="onPress"
+        android:padding="@dimen/_10dp"
+        android:text="@string/inher_ploymorphsm" />
+
+</LinearLayout>

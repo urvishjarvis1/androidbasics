@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">SensorManager</string>
+    <string name="sensors">Sensors</string>
+</resources>

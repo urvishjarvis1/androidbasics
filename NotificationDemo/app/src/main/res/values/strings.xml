@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">NotificationDemo</string>
+    <string name="notify_me">Notify Me!</string>
+    <string name="update">Update</string>
+    <string name="clear_me">Clear Me!</string>
+    <string name="firebase_notification">FireBase Notification</string>
+</resources>
